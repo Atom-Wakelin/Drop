@@ -31,9 +31,9 @@ public class SimpleGame implements ApplicationListener {
 
     @Override
     public void create() {
-        backgroundTexture = new Texture("assets/background.png");
-        bucketTexture = new Texture("assets/bucket.png");
-        dropTexture = new Texture("assets/drop.png");
+        backgroundTexture = new Texture("assets/rv.png");
+        bucketTexture = new Texture("assets/ww.png");
+        dropTexture = new Texture("assets/dea.png");
         
         dropSound = Gdx.audio.newSound(Gdx.files.internal("assets/drop.mp3"));
         music = Gdx.audio.newMusic(Gdx.files.internal("assets/music.mp3"));
